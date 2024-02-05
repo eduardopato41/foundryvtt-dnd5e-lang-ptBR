@@ -1,0 +1,74 @@
+{
+  "id": "neo_dnd5e_pt-BR",
+  "title": "Translation: DnD5e (pt-BR)",
+  "version": "1.0.0",
+  "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de jogo D&amp;D 5E.</p><p>Obs. Esse módulo traduz somente os termos relacionados ao sistema de D&amp;D 5E. Esse módulo não traduz outras partes do FoundryVTT, como a interface principal.</p>",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315",
+    "maximum": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.5.2",
+          "verified": "2.5.2"
+        }
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3",
+          "verified": "3.0.0",
+          "maximum": "4"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "eduardopato41",
+      "flags": {}
+    },
+    {
+      "name": "Melithian539",
+      "flags": {}
+    },
+    {
+      "name": "Bellenus",
+      "flags": {}
+    },
+    {
+      "name": "Innocenti",
+      "flags": {}
+    },
+    {
+      "name": "Erebo",
+      "flags": {}
+    },
+    {
+      "name": "Rafael Levi",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "babele-register.js"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR/pt-BR.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://github.com/eduardopato41/foundryvtt-dnd5e-lang-ptBR/releases/latest/download/module.json",
+  "download": "https://github.com/eduardopato41/foundryvtt-dnd5e-lang-ptBR/releases/download/1.0.0/neo_dnd5e_pt-BR.zip",
+  "url": "https://github.com/eduardopato41/foundryvtt-dnd5e-lang-ptBR"
+}

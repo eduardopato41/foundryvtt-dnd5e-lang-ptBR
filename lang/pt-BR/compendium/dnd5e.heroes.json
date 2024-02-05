@@ -1,0 +1,109 @@
+{
+  "label": "Heróis (SRD)",
+	"mapping": {
+		"alignment": {
+			"path": "system.details.alignment",
+			"converter": "alignement"
+		},
+		"race": {
+			"path": "system.details.race",
+			"converter": "race"
+		},
+		"senses": {
+			"path": "system.traits.senses",
+			"converter": "senses"
+		},
+		"movement": {
+			"path": "system.attributes.movement",
+			"converter": "movement"
+		},
+		"languages": {
+			"path": "system.traits.languages.custom",
+			"converter": "languages"
+		},
+		"di": {
+			"path": "system.traits.di.custom",
+			"converter": "di"
+		},
+		"dr": {
+			"path": "system.traits.dr.custom",
+			"converter": "di"
+		},
+		"token": {
+			"path": "prototypeToken.sight.range",
+			"converter": "sightRange"
+		},
+		"ci": "system.traits.ci.custom",
+		"custom_weapon": "system.traits.weaponProf.custom",
+		"custom_armor": "system.traits.armorProf.custom",
+		"custom_tool": "system.traits.toolProf.custom"
+	},
+  "entries": {
+    "Akra (Dragonborn Cleric)": {
+      "name": "Akra (Draconato Clérigo)",
+      "description": "<p>Uma seguidora devota de sua divindade e dos costumes de sua sociedade, Akra se sente um pouco deslocada ao se aventurar em terras estrangeiras. Mas ela se sente obrigada a fazer tudo ao seu alcance para trazer paz à região.</p>\n<blockquote>Arte do ator fornecida por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>",
+      "alignment": "Ordeiro e bom"
+    },
+    "Aoth (Human Druid)": {
+      "name": "Aoth (Humano Druida)",
+      "description": "<p>Aoth viveu entre os animais por tanto tempo que agora tem dificuldade em falar Comum. Seu habitat natural em perigo, ele decidiu se juntar a um grupo de aventureiros para devolver o equilíbrio à sua terra.</p>\n<blockquote>Arte do ator fornecida por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>",
+      "alignment": "Neutro",
+      "custom_armor": "(Sem metal)"
+    },
+    "Beiro (Half-Elf Bard)": {
+      "name": "Beiro (Meio-Elfo Bardo)",
+      "description": "<p>Beiro era um famoso animador da sua taberna local, quando um dia ficou sem histórias para contar. Para resolver isso, ele começou a fazer suas próprias histórias, para um dia contá-las novamente em sua taverna.</p>\n<blockquote>Arte do ator fornecida por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>",
+      "alignment": "Caótico e neutro",
+      "ci": "Você tem vantagem em salvaguardas para resistir a ser enfeitiçado; Magias não podem colocá-lo para dormir"
+    },
+    "Krusk (Half-Orc Paladin)": {
+      "name": "Krusk (Meio-Orc Paladino)",
+      "description": "<p>Vagando pela terra trazendo justiça a todos, Krusk tem apenas um objetivo: a destruição do mal onde quer que esteja.</p>\n<blockquote>Arte do ator fornecida por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>",
+      "alignment": "Ordeiro e bom"
+    },
+    "Merric (Halfling Barbarian)": {
+      "name": "Merric (Pequenino Bárbaro)",
+      "description": "<p>Merric já foi uma vigilante, devido ao seu senso inato de justiça nas ruas. Embora seu tamanho pequeno possa não parecer muito em combate, ela mais do que compensa isso com suas violentas explosões de raiva.</p>\n<blockquote>Arte do ator fornecida por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>",
+      "alignment": "Caótico e bom",
+      "ci": "Vantagem contra ser assustado"
+    },
+    "Morthos (Tiefling Sorcerer)": {
+      "name": "Morthos (Tiferino Feiticeiro)",
+      "description": "<p>A investigação de Morthos sobre sua complexa ascendência dracônico-infernal a levou a uma vida acadêmica, mas logo ficou claro que os tolos responsáveis ​​estavam escondendo muitos segredos dela.</p>\n<blockquote>Arte do ator fornecida por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>",
+      "alignment": "Ordeiro e mau"
+    },
+    "Perrin (Halfling Monk)": {
+      "name": "Perrin (Pequenino Monge)",
+      "description": "<p>Um estudante dedicado de seu mosteiro local, Perrin foi encarregado de trazer equilíbrio às terras vizinhas.</p> \n<blockquote> \n<p>Arte do ator fornecida por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a> </p> \n</blockquote>",
+      "alignment": "Neutro",
+      "ci": "Vantagem contra ser assustado"
+    },
+    "Quillathe (Elf Ranger)": {
+      "name": "Quillathe (Elfo Guardião)",
+      "description": "<p>Quillathe limpa monstros de sua floresta como hobby, mas agora uma nova força ameaça sua terra e ela deve se unir a aventureiros para derrotá-la.</p>\n<blockquote>Arte do ator fornecida por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>",
+      "alignment": "Caótico e neutro",
+      "ci": "Sono Magico; Vantagem em salvaguardas para resistir a ser enfeitiçado"
+    },
+    "Randal (Human Fighter)": {
+      "name": "Randal (Humano Guerreiro)",
+      "description": "<p>Randal abriu caminho nas fileiras da guarda de sua cidade natal, acabando ficando inquieto com a vida da cidade e vagando em busca de aventura.</p>\n<blockquote>Arte do ator fornecida por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>",
+      "alignment": "Neutro e bom"
+    },
+    "Riswynn (Dwarf Rogue)": {
+      "name": "Riswynn (Anão Ladino)",
+      "description": "<p>Uma vez uma burocrata muito respeitada nos salões dos anões, Riswynn se envolveu em intrigas, pegou alguns truques e teve problemas com alguns nobres. Ela procura fazer um nome para si mesma e recuperar seu status social.</p>\n<blockquote>Arte do ator fornecida por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>",
+      "alignment": "Neutro"
+    },
+    "Sefris (Half-Elf Warlock)": {
+      "name": "Sefris (Meio-Elfo Bruxo)",
+      "description": "<p>O roubo de carteiras de Sefris quando criança se transformou em pequenos roubos e, eventualmente, assaltos complexos, usando o vínculo sombrio com seu demônio para ajudar em suas façanhas. Ele vai trabalhar para qualquer um que possa jogar alguma moeda em seu caminho.</p>\n<blockquote>Arte do ator fornecida por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>",
+      "alignment": "Caótico e neutro",
+      "ci": "Sono Magico; Vantagem em salvaguardas para resistir a ser enfeitiçado"
+    },
+    "Zanna (Gnome Wizard)": {
+      "name": "Zanna (Gnomo Mago)",
+      "description": "<p>Sempre interessada em criar, Zanna partiu para uma aventura a fim de encontrar mais feitiços para seu livro de feitiços e talvez um dia criar seus próprios.</p>\n<blockquote>Arte do ator fornecida por <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a></blockquote>",
+      "alignment": "Caótico e bom"
+    }
+  }
+}
