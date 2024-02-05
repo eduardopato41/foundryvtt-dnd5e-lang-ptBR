@@ -1,8 +1,8 @@
 {
-  "id": "neo_dnd5e_pt-BR",
+  "id": "dnd5e_pt-BR",
   "title": "Translation: DnD5e (pt-BR)",
   "version": "1.0.0",
-  "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de jogo D&amp;D 5E.</p><p>Obs. Esse módulo traduz somente os termos relacionados ao sistema de D&amp;D 5E. Esse módulo não traduz outras partes do FoundryVTT, como a interface principal.</p>",
+  "description": "<p>Nova tradução em Português do Brasil.</p>",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315",
