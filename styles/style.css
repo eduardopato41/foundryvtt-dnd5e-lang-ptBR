@@ -1,4 +1,10 @@
+/* Ajustar tamanho da font em Lidar com Animais */
 li[data-key="ani"] a.name.skill-name {
   white-space: nowrap;
   font-size: 1em;
+}
+
+/* Aumentar largura da coluna de perícias para não quebrar por causa de Lidar com Animais */
+.dnd5e.sheet.actor ul.skills-list {
+  flex: 0 0 195px;
 }
