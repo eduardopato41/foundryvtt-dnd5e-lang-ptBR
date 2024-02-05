@@ -1,0 +1,4 @@
+li[data-key="ani"] a.name.skill-name {
+  white-space: nowrap;
+  font-size: 1em;
+}
