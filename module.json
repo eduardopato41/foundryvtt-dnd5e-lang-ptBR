@@ -60,6 +60,9 @@
   "esmodules": [
     "babele-register.js"
   ],
+  "styles": [
+    "styles/style.css"
+  ],
   "languages": [
     {
       "lang": "pt-BR",
