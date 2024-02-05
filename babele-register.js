@@ -175,7 +175,7 @@ var classes = {
 };
 
 var sources = {
-	"SRD": "DRS"
+	"SRD": "SRD"
 };
 
 var rarity = {
@@ -268,7 +268,7 @@ function parseDamage(damage) {
 
 
 function convertEnabled() {
-	return game.settings.get("dnd5e_fr-FR", "convert");
+	return game.settings.get("dnd5e_pt-BR", "convert");
 }
 
 function setEncumbranceData() {
@@ -284,7 +284,7 @@ Hooks.once('init', () => {
 
 	if(typeof Babele !== 'undefined') {
 
-		game.settings.register("dnd5e_fr-FR", "convert", {
+		game.settings.register("dnd5e_pt-BR", "convert", {
 			name: "Conversions automatiques",
 			hint: "Applique le système métrique à toutes les mesures, distances",
 			scope: "world",
@@ -297,9 +297,9 @@ Hooks.once('init', () => {
 		});
 
 		Babele.get().register({
-			module: 'dnd5e_fr-FR',
-			lang: 'fr',
-			dir: 'compendium_fr'
+			module: 'dnd5e_pt-BR',
+			lang: 'pt-BR',
+			dir: 'lang/pt-BR'
 		});
 
 		Babele.get().registerConverters({
