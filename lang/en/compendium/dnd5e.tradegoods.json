@@ -1,127 +1,97 @@
 {
-  "label": "Bens comerciais",
-  "entries": {
-    "Pepper": {
-      "description": "<p>Os grãos da pimenta são pequenos frutos, ou drupas, de uma planta da pimenta, uma videira florida geralmente conhecida como Pimenta-Preta. Altamente apreciada pelos chefes por sua versatilidade, pode ser utilizada por aventureiras quando moída. </p>",
-      "source": "LdJ pg. 157",
-      "name": "Pimenta"
-    },
-    "Silver": {
-      "description": "<p>A prata há muito é apreciada por sua natureza não reativa e facilidade com que pode ser moldada nas mais finas decorações, adornos e, claro, usada como moeda.</p>\n<p>A prata raramente é encontrada em sua forma nativa em pepitas. Normalmente é encontrado misturado com outras substâncias como enxofre ou cloro, em minérios ou como uma liga com o ouro. A prata superficial pode ser encontrada, mas é muito mais comumente extraída no subsolo. A mineração de prata é lucrativa e pode inspirar corridas de prata.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Prata"
-    },
-    "Flour": {
-      "description": "<p>Grão que foi moído por um moleiro.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Farinha"
-    },
-    "Platinum": {
-      "description": "<p>Muito mais rara do que o ouro, a platina pode ser tratada como o pináculo da riqueza ou o vestígio de uma época passada que pode ser recebida com desconfiança ou inveja.</p>\n<p>Ao contrário do ouro, a platina é quase exclusivamente extraída no subsolo.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Platina"
-    },
-    "Linen": {
-      "description": "<p>Um metro quadrado de linho de qualidade e peso médios. Usado para muitos itens e roupas.</p>\n<p>Mais duradouro que o algodão, sua durabilidade e respirabilidade o tornam particularmente valorizado em climas quentes.</p>\n<p>\nExistem diferentes tipos de linho, com tramas mais leves começando em 6 onças por jarda quadrada e o restante indo até 15 onças.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Linho"
-    },
-    "Gold": {
-      "description": "<p>O ouro é o rei da moeda para muitas civilizações. Normalmente mais comum do que os gostos da platina, mas nem de longe tão comum quanto outros metais como o ferro, ocupa um lugar ideal em raridade e não reatividade.</p>\n<p>Ao contrário da prata, o ouro pode ser encontrado mais facilmente na superfície. Tanto a mineração de superfície quanto a subterrânea podem ser extremamente lucrativas. A corrida do ouro pode e tem sido fonte de grande felicidade e grande tragédia</p>",
-      "source": "LdJ pg. 157",
-      "name": "Ouro"
-    },
-    "Saffron": {
-      "description": "<p>Provavelmente um dos ingredientes mais valorizados do mundo, o açafrão é tão caro porque exige muito trabalho para ser produzido. Feito de Crocus sativus, ou mais comumente o \"açafrão crocus\", são necessárias 80.000 flores de açafrão para produzir 1 quilo de açafrão. Por peso, vale mais do que ouro. Apreciado pelos mais exigentes cozinheiros e boticários por seu aromatizante e supostos benefícios à saúde.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Açafrão"
-    },
-    "Sheep": {
-      "description": "<p>Uma criatura útil para pequenos fazendeiros e habitantes das terras altas, embora não sejam tão ágeis quanto cabras, eles têm a valiosa habilidade de ser tosados ​​todos os anos, dando às pessoas uma fonte de roupas, tapetes e mantas para camas e cadeiras. Seu tamanho maior também significa que são mais valiosos para o abate.</p>\n<p>Dependendo da raça, ovelhas adultas podem variar de 100 libras até 350 libras.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Ovelha"
-    },
-    "Cinnamon": {
-      "description": "<p>Retirado da casca interna da canela, uma especiaria popular, embora um pouco mais rara, entre os chefs de todo o mundo. Adorado por crianças quando combinado com açúcar para fazer diversos tipos de guloseimas.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Canela"
-    },
-    "Iron": {
-      "description": "<p>Frequentemente, o burro de carga do metalúrgico, o ferro é apreciado por sua relativa abundância e facilidade de obtenção. O ferro da superfície pode ser encontrado em meteoros caídos e xenólitos, mas é muito mais comumente extraído no subsolo. No entanto, deve-se ter cuidado, caso contrário a ferrugem terá seu preço.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Ferro"
-    },
-    "Ginger": {
-      "description": "<p>Especiaria que vem da raiz fresca ou seca da planta de gengibre \"Zingiber officinale\". Pertence à mesma família da cúrcuma e do cardamomo</p>\n<p>Valorizado por chefs e doces, amado por crianças e por aqueles com gostos mais apimentados.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Gengibre"
-    },
-    "Cow": {
-      "description": "<p>Uma criatura para fazendeiros de grandes áreas, as vacas requerem grandes áreas de pasto plano, o que significa que não são tão comuns quanto outros animais. No entanto, eles vivem mais e dão muito mais leite. Eles também são uma fonte de couro muito mais durável, menos sujeito a rachaduras e resistente ao calor e sujeira.</p>\n<p>Dependendo do gênero e da raça, as vacas adultas podem pesar entre 1.000 e 1.800 libras.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Vaca"
-    },
-    "Ox": {
-      "description": "<p>Essencialmente, um novilho especialmente criado para carne ou leite, que atingiu a idade de 5 anos. Essas bestas de carga pesadas podem puxar ou carregar seu próprio peso corporal. Usados para uma infinidade de tarefas, como transportar carroças, debulhar grãos, alimentar máquinas que irrigam ou moem grãos e até mesmo quando montados, os bois são criaturas altamente apreciadas pelos trabalhadores de vários setores.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Boi"
-    },
-    "Wheat": {
-      "description": "<p>Um ingrediente comum para pão, cerveja e muito mais; ele é a base de alimentação para pessoas onde suas terras são abertas e relativamente planas, o clima é temperado e a área segura o suficiente para os agricultores trabalharem.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Trigo"
-    },
-    "Pig": {
-      "description": "<p>Uma criatura para fazendeiros de área média ou grande, os porcos se reproduzem de forma relativamente rápida e são criaturas robustas que fornecem todos os tipos de possibilidades de cozimento para o cozinheiro, principalmente o bacon. Sua pele também pode ser usada como couro mais barato, mas é menos resistente a rasgos em comparação com cordeiro ou cabra. Os porcos também são a fonte de banha.</p>\n<p>A maioria dos porcos pesa entre 113 e 122kg no abate, dão cortes comerciais ideais, e gordura média.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Porco"
-    },
-    "Cotton": {
-      "description": "<p>Um metro quadrado de algodão de qualidade e peso médio. Usado para muitos itens e roupas.</p>\n<p>Muito mais leve, mais confortável e mais fácil de trabalhar do que a tela; no entanto, a cultura mais delicada significa que é mais cara e mais difícil de se obter.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Algodão"
-    },
-    "Copper": {
-      "description": "<p>Cobiçado por construtores navais, alquimistas, joalheiros e chefs, o cobre é normalmente extraído da superfície, mas existe mineração subterrânea quando as fontes da superfície estão esgotadas ou não são encontradas.</p>\n<p>Embora possa ser usado como armadura, é muito melhor misturado com estanho para fazer uma liga de bronze muito mais superior para necessidades militares.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Cobre"
-    },
-    "Salt": {
-      "description": "<p>Apreciado por chefs como tempero e conservante de suprimentos onde o álcool ou vinagre são indesejados.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Sal"
-    },
-    "Silk": {
-      "description": "<p>Um metro quadrado de seda de qualidade de peso médio. Usado para itens e roupas.</p>\n<p>O melhor e mais desejável dos tecidos comuns, a seda é a mais leve. A maioria das sedas pesa entre 56g e 113g por metro quadrado. Quanto mais pesada a seda, maior a qualidade, mais durável e mais opaco é a cor.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Seda"
-    },
-    "Chicken": {
-      "description": "<p>A fonte dos omeletes e asas de frango, a galinha média adulta pesa entre 2 e 4kg. </p>",
-      "source": "LdJ pg. 157",
-      "name": "Galinha"
-    },
-    "Canvas": {
-      "description": "<p>Um metro quadrado de tela de qualidade e peso médio. Usado para muitos itens e roupas.</p>\n<p>Classificados de 1 a 12, quanto menor o número, melhor será a qualidade e maior será o peso. A tela de qualidade nº 1 pesa cerca de 700g por metro quadrado, enquanto a mais fraca e mais leve nº 12 pode pesar apenas 300g.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Tela"
-    },
-    "Goat": {
-      "description": "<p>Uma criatura útil para pequenos fazendeiros e habitantes das terras altas, as cabras são eficazes em evitar que os prados cresçam demais, ao mesmo tempo que fornecem leite, queijo e, eventualmente, peles e carne.</p>\n<p>Dependendo da raça, as cabras adultas podem variar de 20 até 130kg.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Cabra"
-    },
-    "Cloves": {
-      "description": "<p>Um tempero forte apreciado por chefs e destiladores, que funciona bem para dar sabor a carnes e guisados, molhos ricos, bebidas quentes como cidra e chá chai, pão, queijos e sobremesas doces como tortas e bolos de frutas.</p>\n<p>O cravo ou cravo-da-índia (Syzygium aromaticum), é uma árvore perene da família da murta, eles são secos e possuem botão fechado.</p>",
-      "source": "LdJ pg. 157",
-      "name": "Cravo"
-    }
-  },
-  "mapping": {
-    "source": "data.source",
-    "weight": {
-      "path": "data.weight",
-      "converter": "weight"
-    }
-  }
+	"label": "Trade Goods (SRD)",
+	"entries": {
+		"Canvas": {
+			"name": "Canvas",
+			"description": "<p>A square yard of canvas of average quality and weight. Used for all many of items and clothing.</p>\n<p>Graded from 1 to 12, the lower the number, the better the quality and the heavier the weight. #1 quality canvas weighs around 1.7 pounds per square yard, while the weaker, lighter #12 can weigh only 0.7 pounds.</p>"
+		},
+		"Chicken": {
+			"name": "Chicken",
+			"description": "<p>The source of omelettes and chicken wings, the average adult chicken weighs between 5 and 10 pounds.</p>"
+		},
+		"Cinnamon": {
+			"name": "Cinnamon",
+			"description": "<p>Taken from the inner bark of the cinnamon tree, a popular if slightly rarer spice, amongst chefs of the world. Adored by children when combined with sugar to make many kinds of treats.</p>"
+		},
+		"Cloves": {
+			"name": "Cloves",
+			"description": "<p>A strong spice treasured by both chefs and distillers, working well to flavor meat and stews, rich sauces, warm beverages like cider and chai tea, bread, cheeses, and sweet desserts like pies and fruitcakes.</p>\n<p>Cloves are the rich, dried, unopened buds of the Syzygium aromaticum, an evergreen tree in the myrtle family.</p>"
+		},
+		"Copper": {
+			"name": "Copper",
+			"description": "<p>Coveted by advanced shipwrights, alchemists, certain jewelers, and chefs alike, copper is commonly surface mined but underground mining exists when surface sources have been depleted or unable to be located.</p>\n<p>Although it can be used for armor, it is far better mixed with tin to make the much more superior bronze alloy for military needs.</p>"
+		},
+		"Cotton": {
+			"name": "Cotton",
+			"description": "<p>A square yard of cotton of average quality and weight. Used for all many of items and clothing.</p>\n<p>Far lighter, more comfortable, and easier to work with than canvas; however, the comparatively more delicate crop means it is accordingly more expensive and potentially harder to come by.</p>"
+		},
+		"Cow": {
+			"name": "Cow",
+			"description": "<p>A creature for large-area farmers, cows require large areas of flat grazing meaning they are not as common as other livestock. However, they live longer, and give far more milk. They are also a source for much more durable leather that is less prone to cracking and is resistant to heat and dirt.</p>\n<p>Depending in the gender and breed, adult cows can weigh between 1,000 and 1,800 pounds.</p>"
+		},
+		"Flour": {
+			"name": "Flour",
+			"description": "<p>Grain that has been ground by a miller in the next step along the food chain.</p>"
+		},
+		"Ginger": {
+			"name": "Ginger",
+			"description": "<p>A spice that comes from the fresh or dried root of the ginger plant Zingiber officinale. It belongs to the same family as tumeric and cardamom.</p>\n<p>Valued by chefs and sweet-makers, loved by children and those with spicier tastes.</p>"
+		},
+		"Goat": {
+			"name": "Goat",
+			"description": "<p>A useful creature for small-area farmers and highland dwellers, goats are effective at keeping meadows from overgrowing while providing milk, cheese, and eventually skins and meat.</p>\n<p>Depending on the breed, adult goats can range from 45 pounds all the way up to 300 pounds.</p>"
+		},
+		"Gold": {
+			"name": "Gold",
+			"description": "<p>Gold is the king of currency for many civilizations. Usually more common than the likes of platinum, but nowhere near as common as other metals like iron, it occupies a sweet spot in rarity and unreactiveness.</p>\n<p>Unlike silver, gold can be found more easily on the surface. Both surface and underground mining can be extremely profitable. Gold rushes can and have been a source a great happiness and huge tragedy.</p>"
+		},
+		"Iron": {
+			"name": "Iron",
+			"description": "<p>Often the workhorse of the metalworker, iron is appreciated for its relative abundence and ease of attainment. Surface iron can be found from fallen meteors and xenoliths, but is much more commonly mined underground. However, care must be given otherwise rust will take its toll.</p>"
+		},
+		"Linen": {
+			"name": "Linen",
+			"description": "<p>A square yard of linen of average quality and weight. Used for all many of items and clothing.</p>\n<p>Longer lasting than cotton, its durability and breathability make it particularly valued in warm climtes.</p>\n<p>Different types of linen do exist, with lighter weaves starting at 6 ounces per square yard, and the rest going up to 15 ounces.</p>"
+		},
+		"Ox": {
+			"name": "Ox",
+			"description": "<p>Essentially a specially trained beef or dairy steer that has reached the age of 5. These heavy-duty beasts of burden can pull or carry up to and over their own body weight. Used for a multitude of tasks like hauling wagons, threshing grain, powering machines that irrigate or grind grain, and even been ridden, oxen are highly prized creatures for workers in a range of fields.</p>"
+		},
+		"Pepper": {
+			"name": "Pepper",
+			"description": "<p>Peppercorns are the tiny fruit, or drupe, of the pepper plant, a flowering vine also known as the piper nigrum. Highly prized by chefs for its versaility and can be utilized in a pinch by adventurers when ground down for distractions and shenanigans.</p>"
+		},
+		"Pig": {
+			"name": "Pig",
+			"description": "<p>A creature for medium- or larger area farmers, pigs breed relatively quickly and are sturdy creatures that provide all manner of cooking possibilities for the enterprizing cook, foremost of which is of course bacon. Their skin can also be used as a cheaper leather, but it is less tear-resistant compared to lamb or goat. Pigs are also the source of lard.</p>\n<p>Most pigs weigh between 250 and 270 pounds at slaughter as it gives optimal retail cuts and medium fat covering.</p>"
+		},
+		"Platinum": {
+			"name": "Platinum",
+			"description": "<p>Far rarer than gold, platinum may either be treated as the pinnacle of wealth, or the vestige of a bygone age that may be met with distrust or envy.</p>\n<p>Unlike gold, platinum is almost exclusively mined underground.</p>"
+		},
+		"Saffron": {
+			"name": "Saffron",
+			"description": "<p>Likely to be one of the most highly prized ingredients in the world, saffron is so expensive because it is so labor-intensive to produce. Made from the Crocus sativus, or more commonly the \"saffron crocus\", it takes 80,000 crocus flowers to produce 1 pound of saffron.By weight, it is worth more than gold. Treasured by the most discerning of cooks and apothecaries for its flavoring and purported health benefits.</p>"
+		},
+		"Salt": {
+			"name": "Salt",
+			"description": "<p>Prized by chefs and quartermasters alike as a seasoning and preservative for supplies where alcohol or vinegar are undesired.</p>"
+		},
+		"Sheep": {
+			"name": "Sheep",
+			"description": "<p>A useful creature for small-area farmers and highland dwellers, though not quite as nimble as goats, they have the valuable ability to be sheared every year, giving people a source of clothing, rugs, and throws for beds and chairs. Their larger size also means they are more valuable for slaughter.</p>\n<p>Depending on the breed, adult sheep can range from 100 pounds all the way up to 350 pounds.</p>"
+		},
+		"Silk": {
+			"name": "Silk",
+			"description": "<p>A square yard of silk of average quality and weight. Used for all many of items and clothing.</p>\n<p>The finest and most desirable of the common fabrics, silk is also the lightest. Most silks will weigh between 2 and 4 ounces per square yard. The heavier the silk, the higher the quality, more durable, and more opaque in color it is.</p>"
+		},
+		"Silver": {
+			"name": "Silver",
+			"description": "<p>Silver has long been appreciated for its unreactive nature and ease with which it can be shaped into the finest of decorations, adornments, and of course used as coin.</p>\n<p>Silver is rarely found in its native form in nuggets. Normally it is found mixed with other substances like sulfur or chlorine, in ores, or as an alloy with the likes of gold. Surface silver can be found, but is much more commonly mined underground. Silver mining is lucrative and can inspire silver-rushes.</p>"
+		},
+		"Wheat": {
+			"name": "Wheat",
+			"description": "<p>A common ingredient for bread, beer, and more; this staple often forms the base of a diet for people where their land is open and relatively flat, the weather temperate, and the area safe enough for farmers to operate.</p>"
+		}
+	}
 }

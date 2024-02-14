@@ -1,10 +1,15 @@
 /* Ajustar tamanho da font em Lidar com Animais */
 li[data-key="ani"] a.name.skill-name {
   white-space: nowrap;
-  font-size: 1em;
+  font-size: 0.8rem!important;
 }
 
 /* Aumentar largura da coluna de perícias para não quebrar por causa de Lidar com Animais */
 .dnd5e.sheet.actor ul.skills-list {
-  flex: 0 0 195px;
+  flex: 0 0 190px;
+}
+
+/* Capitalizar a primeira letra dos traços depois da tradução */
+.dnd5e.sheet .traits .traits-list .tag::first-letter {
+  text-transform: capitalize;
 }

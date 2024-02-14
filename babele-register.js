@@ -87,6 +87,7 @@ var languages = {
 	"worg": "Worg",
 	"winter wolf": "Lobo Invernal",
 	"sahuagin": "Sahuagin",
+	"giant owl": "Coruja gigante",
 	"giant owl, understands but cannot speak all but giant owl": "Chouette Gigantee, comprend mais ne peut pas parler sauf en Chouette Gigantee",
 	"giant elk but can't speak them": "Elan Gigante, mais ne peut pas le parler",
 	"understands infernal but can't speak it": "comprend l'infernal mais ne peut pas le parler",
@@ -400,8 +401,9 @@ Hooks.once('init', () => {
 					let languagesFin = '';
 					let languagesTr = '';
 					languagesSplit.forEach(function(el){
-						languagesTr = languages[el.toLowerCase()] ;
+            languagesTr = languages[el];
 						if (languagesTr != null) {
+              languagesTr = languagesTr.toLowerCase();
 							if (languagesFin === '') {
 								languagesFin = languagesTr;
 							}  else {

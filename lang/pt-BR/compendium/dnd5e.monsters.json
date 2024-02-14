@@ -758,8 +758,8 @@
       "name": "Povo Lagarto"
     },
     "Mage": {
-      "description": "<p>Arcanos passam suas vidas estudando e praticando mágica. Magos de tendência boa oferecem conselhos a nobre e outros poderes, enquanto que magos malignos residem em locais isolados para realizar experimentos inomináveis sem interferência.</p>\n<p></p>",
-      "name": "Arcano"
+      "description": "<p>Magos dedicam suas vidas ao estudo e à prática de magia. Magos de alinhamento bom oferecem conselhos a nobre e outros poderes, enquanto que magos malignos residem em locais isolados para realizar experimentos inomináveis sem interferência.</p>\n<p></p>",
+      "name": "Mago"
     },
     "Magma Mephit": {
       "description": "<p><em>Token artwork by Forgotten Adventures.</em></p>",
