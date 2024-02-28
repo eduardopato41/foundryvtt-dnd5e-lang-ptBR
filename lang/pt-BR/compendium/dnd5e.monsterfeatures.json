@@ -1,5 +1,23 @@
 {
   "label": "Características de Monstro (SRD)",
+  "mapping": {
+		"range": {
+			"path": "system.range",
+			"converter": "range"
+		},
+		"target": {
+			"path": "system.target",
+			"converter": "range"
+		},
+		"requirements": {
+			"path": "system.requirements",
+			"converter": "classRequirements"
+		},
+		"sources": {
+			"path":"system.source",
+			"converter": "source"
+		}
+	},
   "entries": {
     "Aberrant Ground": {
       "name": "Solo Aberrante",
@@ -223,8 +241,7 @@
     },
     "Detect (Legendary)": {
       "name": "Detectar (Lendário)",
-      "description": "<p>O {creature} faz um teste de Sabedoria (Percepção).</p>",
-        "source": "MM pg. 14"
+      "description": "<p>O {creature} faz um teste de Sabedoria (Percepção).</p>"
     },
     "Devil Sight": {
       "name": "Visão Diabólica",
@@ -276,8 +293,7 @@
     },
     "Enslave": {
       "name": "Escravizar",
-      "description": "<section class=\"secret\">\n<p>O {creature} escolhe como alvo uma criatura à sua vista e a até 9 metros de distância dele. O alvo deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria CD 14</strong> ou fica magicamente enfeitiçado pelo {creature}, até que este morra ou até que esteja em um plano de existência diferente daquele do alvo.</p>\n<p>O alvo enfeitiçado está sob o controle do {creature} e não pode executar reações. O {creature} e o alvo podem se comunicar telepaticamente entre si, qualquer que seja a distância entre eles. Sempre que o alvo enfeitiçado sofre dano, ele pode repetir a salvaguarda. Se for bem-sucedido, o efeito se encerra. Não mais do que uma vez a cada 24 horas, o alvo também pode repetir a salvaguarda quando está a, pelo menos, 1,5 quilômetro do {creature}.</p>\n</section>\n<p>O alvo deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria</strong>. Sempre que o alvo sofre dano, ele pode repetir a salvaguarda. Não mais do que uma vez a cada 24 horas, o alvo também pode repetir a salvaguarda quando está a, pelo menos, 1,5 quilômetro do {creature}.</p>",
-        "source": "MM pg. 14"
+      "description": "<section class=\"secret\">\n<p>O {creature} escolhe como alvo uma criatura à sua vista e a até 9 metros de distância dele. O alvo deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria CD 14</strong> ou fica magicamente enfeitiçado pelo {creature}, até que este morra ou até que esteja em um plano de existência diferente daquele do alvo.</p>\n<p>O alvo enfeitiçado está sob o controle do {creature} e não pode executar reações. O {creature} e o alvo podem se comunicar telepaticamente entre si, qualquer que seja a distância entre eles. Sempre que o alvo enfeitiçado sofre dano, ele pode repetir a salvaguarda. Se for bem-sucedido, o efeito se encerra. Não mais do que uma vez a cada 24 horas, o alvo também pode repetir a salvaguarda quando está a, pelo menos, 1,5 quilômetro do {creature}.</p>\n</section>\n<p>O alvo deve ser bem-sucedido em uma salvaguarda de <strong>Sabedoria</strong>. Sempre que o alvo sofre dano, ele pode repetir a salvaguarda. Não mais do que uma vez a cada 24 horas, o alvo também pode repetir a salvaguarda quando está a, pelo menos, 1,5 quilômetro do {creature}.</p>"
     },
     "Ephemeral": {
       "name": "Efêmero",
@@ -585,8 +601,7 @@
     },
     "Mucous Cloud": {
       "name": "Nuvem de Muco",
-      "description": "<section class=\"secret\">\n<p>Enquanto estiver submerso, o {creature} fica rodeado por um muco transformador. Uma criatura que toque o {creature} ou que o acerte com um ataque corpo a corpo, enquanto estiver no alcance de <strong>1,5 m</strong> dele, deve fazer uma salvaguarda de <strong>Constituição CD 14</strong>. Se falhar, fica doente por 1d4 horas. A criatura doente só pode respirar debaixo d'água.</p>\n</section>\n<p>Enquanto estiver submerso, o {creature} fica rodeado por um muco transformador. Uma criatura que toque o {creature} ou que o acerte com um ataque corpo a corpo, enquanto estiver no alcance de <strong>1,5 m</strong> dele, deve fazer uma salvaguarda de <strong>Constituição</strong>.</p>",
-        "source": "MM pg. 14"
+      "description": "<section class=\"secret\">\n<p>Enquanto estiver submerso, o {creature} fica rodeado por um muco transformador. Uma criatura que toque o {creature} ou que o acerte com um ataque corpo a corpo, enquanto estiver no alcance de <strong>1,5 m</strong> dele, deve fazer uma salvaguarda de <strong>Constituição CD 14</strong>. Se falhar, fica doente por 1d4 horas. A criatura doente só pode respirar debaixo d'água.</p>\n</section>\n<p>Enquanto estiver submerso, o {creature} fica rodeado por um muco transformador. Uma criatura que toque o {creature} ou que o acerte com um ataque corpo a corpo, enquanto estiver no alcance de <strong>1,5 m</strong> dele, deve fazer uma salvaguarda de <strong>Constituição</strong>.</p>"
     },
     "Multiattack": {
       "name": "Ataque Múltiplo",
@@ -650,13 +665,11 @@
     },
     "Probing Telepathy": {
       "name": "Sondagem Telepática",
-      "description": "<p>Se uma criatura se comunicar telepaticamente com o {creature}, este toma conhecimento dos maiores desejos dela, se puder vê-la.</p>",
-        "source": "MM pg. 14"
+      "description": "<p>Se uma criatura se comunicar telepaticamente com o {creature}, este toma conhecimento dos maiores desejos dela, se puder vê-la.</p>"
     },
     "Psychic Drain": {
       "name": "Dreno Psíquico",
-      "description": "<p>Uma criatura enfeitiçada pelo {creature} sofre <strong>10 (3d6) pontos de dano psíquico</strong>, e o {creature} recupera uma quantidade de pontos de vida iguais ao dano que a criatura sofreu.</p>",
-        "source": "MM pg. 14"
+      "description": "<p>Uma criatura enfeitiçada pelo {creature} sofre <strong>10 (3d6) pontos de dano psíquico</strong>, e o {creature} recupera uma quantidade de pontos de vida iguais ao dano que a criatura sofreu.</p>"
     },
     "Rampage": {
       "name": "Frenesi",
@@ -872,8 +885,7 @@
     },
     "Tail Swipe (Legendary)": {
       "name": "Golpe com a Cauda (Lendário)",
-      "description": "<section class=\"secret\">\n<p>O {creature} faz um ataque com a cauda.</p>\n</section>\n<p>O {creature} bate sua cauda contra sua presa!</p>",
-        "source": "MM pg. 14"
+      "description": "<section class=\"secret\">\n<p>O {creature} faz um ataque com a cauda.</p>\n</section>\n<p>O {creature} bate sua cauda contra sua presa!</p>"
     },
     "Telepathic Bond": {
       "name": "Ligação Telepática",
@@ -889,8 +901,7 @@
     },
     "Tentacle Disease": {
       "name": "Doença de Tentáculo",
-      "description": "<section class=\"secret\">\n<p><strong>Após 1 minuto</strong>, a pele da criatura doente torna-se translúcida e viscosa, ela não pode recuperar pontos de vida, a menos que esteja submersa, e a doença pode ser removida apenas por cura completa ou outra magia de 6° círculo ou superior, que cure doenças. Quando a criatura está <strong>fora d'água</strong>, ela sofre <strong>6 (1d12) pontos de dano ácido a cada 10 minutos</strong>, a menos que umidade seja aplicada sobre sua pele antes que 10 minutos se passem.</p>\n</section>\n<p>Você sente uma dor crescente correndo pelo seu corpo!</p>",
-        "source": "MM pg. 14"
+      "description": "<section class=\"secret\">\n<p><strong>Após 1 minuto</strong>, a pele da criatura doente torna-se translúcida e viscosa, ela não pode recuperar pontos de vida, a menos que esteja submersa, e a doença pode ser removida apenas por cura completa ou outra magia de 6° círculo ou superior, que cure doenças. Quando a criatura está <strong>fora d'água</strong>, ela sofre <strong>6 (1d12) pontos de dano ácido a cada 10 minutos</strong>, a menos que umidade seja aplicada sobre sua pele antes que 10 minutos se passem.</p>\n</section>\n<p>Você sente uma dor crescente correndo pelo seu corpo!</p>"
     },
     "Tentacle Slam": {
       "name": "Pancada com Tentáculo",

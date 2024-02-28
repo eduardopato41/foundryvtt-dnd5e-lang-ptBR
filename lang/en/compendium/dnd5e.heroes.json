@@ -1,5 +1,43 @@
 {
 	"label": "Starter Heroes",
+	"mapping": {
+		"alignment": {
+			"path": "system.details.alignment",
+			"converter": "alignement"
+		},
+		"race": {
+			"path": "system.details.race",
+			"converter": "race"
+		},
+		"senses": {
+			"path": "system.traits.senses",
+			"converter": "senses"
+		},
+		"movement": {
+			"path": "system.attributes.movement",
+			"converter": "movement"
+		},
+		"languages": {
+			"path": "system.traits.languages.custom",
+			"converter": "languages"
+		},
+		"di": {
+			"path": "system.traits.di.custom",
+			"converter": "di"
+		},
+		"dr": {
+			"path": "system.traits.dr.custom",
+			"converter": "di"
+		},
+		"token": {
+			"path": "prototypeToken.sight.range",
+			"converter": "sightRange"
+		},
+		"ci": "system.traits.ci.custom",
+		"custom_weapon": "system.traits.weaponProf.custom",
+		"custom_armor": "system.traits.armorProf.custom",
+		"custom_tool": "system.traits.toolProf.custom"
+	},
 	"entries": {
 		"Akra (Dragonborn Cleric)": {
 			"name": "Akra (Dragonborn Cleric)",
@@ -7,11 +45,13 @@
 		},
 		"Aoth (Human Druid)": {
 			"name": "Aoth (Human Druid)",
-			"description": "<p>Aoth lived among animals for so long that he now has difficulty speaking Common. His natural habitat in danger, he decided to join an adventuring group to return balance to his land.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>"
+			"description": "<p>Aoth lived among animals for so long that he now has difficulty speaking Common. His natural habitat in danger, he decided to join an adventuring group to return balance to his land.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>",
+      "custom_armor": "(No metal)"
 		},
 		"Beiro (Half-Elf Bard)": {
 			"name": "Beiro (Half-Elf Bard)",
-			"description": "<p>Beiro was a famed entertainer at his local tavern, when he one day ran out of stories to tell. To solve this, he set out to make his own stories, so as to one day tell them again at his tavern.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>"
+			"description": "<p>Beiro was a famed entertainer at his local tavern, when he one day ran out of stories to tell. To solve this, he set out to make his own stories, so as to one day tell them again at his tavern.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>",
+      "ci": "Magic can't put you to sleep; Advantage on saving throws against being charmed"
 		},
 		"Krusk (Half-Orc Paladin)": {
 			"name": "Krusk (Half-Orc Paladin)",
@@ -19,7 +59,8 @@
 		},
 		"Merric (Halfling Barbarian)": {
 			"name": "Merric (Halfling Barbarian)",
-			"description": "<p>Merric was once a vigilante, due to her innate sense of street justice. Though her small size may not seem like much in combat, she more than makes up for it with her violent outbursts of anger.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>"
+			"description": "<p>Merric was once a vigilante, due to her innate sense of street justice. Though her small size may not seem like much in combat, she more than makes up for it with her violent outbursts of anger.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>",
+      "ci": "Advantage against being frightened"
 		},
 		"Morthos (Tiefling Sorcerer)": {
 			"name": "Morthos (Tiefling Sorcerer)",
@@ -27,11 +68,13 @@
 		},
 		"Perrin (Halfling Monk)": {
 			"name": "Perrin (Halfling Monk)",
-			"description": "<p>A devoted student of his local monastery, Perrin has been tasked with bringing balance to the surrounding lands.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>"
+			"description": "<p>A devoted student of his local monastery, Perrin has been tasked with bringing balance to the surrounding lands.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>",
+      "ci": "Advantage against being frightened"
 		},
 		"Quillathe (Elf Ranger)": {
 			"name": "Quillathe (Elf Ranger)",
-			"description": "<p>Quillathe cleanses monsters from her woods as a hobby, but now a new force menaces her land and she must band with adventurers to defeat it.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>"
+			"description": "<p>Quillathe cleanses monsters from her woods as a hobby, but now a new force menaces her land and she must band with adventurers to defeat it.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>",
+      "ci": "Magical Sleep; Advantage on saving throws against being charmed"
 		},
 		"Randal (Human Fighter)": {
 			"name": "Randal (Human Fighter)",
@@ -43,7 +86,8 @@
 		},
 		"Sefris (Half-Elf Warlock)": {
 			"name": "Sefris (Half-Elf Warlock)",
-			"description": "<p>Sefris's pickpocketing as a child grew into small burglaries and eventually complex heists, using the dark bond with his fiend to aid his exploits. He'll work for anyone who can throw some coin his way.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>"
+			"description": "<p>Sefris's pickpocketing as a child grew into small burglaries and eventually complex heists, using the dark bond with his fiend to aid his exploits. He'll work for anyone who can throw some coin his way.</p><p>\n        <em>\n          Token artwork by\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>",
+      "ci": "Magical Sleep; Advantage on saving throws against being charmed"
 		},
 		"Zanna (Gnome Wizard)": {
 			"name": "Zanna (Gnome Wizard)",

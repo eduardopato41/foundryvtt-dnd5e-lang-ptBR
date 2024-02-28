@@ -1,8 +1,8 @@
 {
   "id": "dnd5e_pt-BR",
-  "title": "Translation: DnD5e (pt-BR)",
-  "version": "1.0.0",
-  "description": "<p>Nova tradução em Português do Brasil.</p>",
+  "title": "DnD5e Brazilian Portuguese Translation",
+  "version": "3.0.0",
+  "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de jogo D&D 5E.</p><p>Obs. Esse módulo traduz somente os termos relacionados ao sistema de D&D 5E. Esse módulo não traduz outras partes do FoundryVTT, como a interface principal.</p>",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315",
@@ -33,10 +33,6 @@
   },
   "authors": [
     {
-      "name": "eduardopato41",
-      "flags": {}
-    },
-    {
       "name": "Melithian539",
       "flags": {}
     },
@@ -55,6 +51,10 @@
     {
       "name": "Rafael Levi",
       "flags": {}
+    },
+    {
+      "name": "eduardopato41",
+      "flags": {}
     }
   ],
   "esmodules": [
@@ -71,7 +71,7 @@
       "flags": {}
     }
   ],
-  "manifest": "https://github.com/eduardopato41/foundryvtt-dnd5e-lang-ptBR/releases/download/beta/module.json",
-  "download": "https://github.com/eduardopato41/foundryvtt-dnd5e-lang-ptBR/releases/download/beta/dnd5e_pt-BR.zip",
-  "url": "https://github.com/eduardopato41/foundryvtt-dnd5e-lang-ptBR"
+  "manifest": "https://gitlab.com/fvtt-brasil/dnd5e/-/raw/master/dnd5e_pt-BR/module.json",
+  "download": "https://gitlab.com/fvtt-brasil/dnd5e/-/releases/v3.0.0/downloads/module.zip",
+  "url": "https://gitlab.com/fvtt-brasil/dnd5e"
 }

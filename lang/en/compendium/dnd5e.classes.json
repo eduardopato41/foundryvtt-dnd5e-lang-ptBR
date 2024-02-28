@@ -1,5 +1,11 @@
 {
 	"label": "Classes (SRD)",
+  "mapping": {
+		"sources": {
+			"path":"system.source",
+			"converter": "source"
+		}
+	},
 	"entries": {
 		"Barbarian": {
 			"name": "Barbarian",

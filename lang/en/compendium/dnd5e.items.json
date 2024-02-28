@@ -1,5 +1,45 @@
 {
 	"label": "Items (SRD)",
+  "mapping": {
+    "weight": {
+			"path": "system.weight",
+			"converter": "weight"
+		},
+		"range": {
+			"path": "system.range",
+			"converter": "range"
+		},
+		"rarity": {
+			"path": "system.rarity",
+			"converter": "rarity"
+		},
+		"target": {
+			"path": "system.target",
+			"converter": "range"
+		},
+		"sources": {
+			"path":"system.source",
+			"converter": "source"
+		},
+		"conditional-activation": "system.activation.condition"
+  },
+	"folders": {
+		"Ammunition": "Ammunition",
+		"Armor": "Armor",
+		"Container": "Container",
+		"Equipment": "Equipment",
+		"Equipment Packs": "Equipment Packs",
+		"Food": "Food",
+		"Loot": "Loot",
+		"Poison": "Poison",
+		"Potion": "Potion",
+		"Rod": "Rod",
+		"Scroll": "Scroll",
+		"Tool": "Tool",
+		"Trinket": "Trinket",
+		"Wand": "Wand",
+		"Weapon": "Weapon"
+	},
 	"entries": {
 		"Abacus": {
 			"name": "Abacus",
